@@ -1,0 +1,3 @@
+Binary result value : positive
+Class result value : forearm
+Number of boxes : 1

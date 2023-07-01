@@ -1,0 +1,1 @@
+D:\Anaconda\python.exe D:\FYP\prediction_script.py

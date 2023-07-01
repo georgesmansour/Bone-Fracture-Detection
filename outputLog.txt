@@ -1,0 +1,500 @@
+Process Output Started (3/27/2023 8:38:06 PM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-03-27 20:38:07.237160: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-03-27 20:38:07.237223: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-03-27 20:38:18.194074: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-03-27 20:38:18.253720: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-03-27 20:38:18.378414: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-03-27 20:38:18.379648: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-03-27 20:38:18.380671: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-03-27 20:38:18.381678: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-03-27 20:38:18.382635: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-03-27 20:38:18.383595: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-03-27 20:38:18.384563: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-03-27 20:38:18.385595: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-03-27 20:38:18.386862: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-03-27 20:38:18.386882: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-03-27 20:38:18.394786: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-03-27 20:38:18.410346: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-03-27 20:38:18.410368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-03-27 20:38:18.410393: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-03-27 20:38:20.200306: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+Error : image 1/1 D:\FYP\image_to_predict\image1.png: 352x160 1 Fracture, 1001.3ms 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  positive 
+
+Error : Speed: 47.9ms preprocess, 1001.3ms inference, 75.8ms postprocess per image at shape (1, 3, 352, 352) 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Class result value: forearm 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Number of boxes: 1 
+
+-------------------------------------------------------------------- 
+
+Error : Results saved to [1mruns\detect\predict[0m 
+
+Process Output Started (3/27/2023 8:40:30 PM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-03-27 20:40:31.049796: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-03-27 20:40:31.049833: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-03-27 20:40:37.956656: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-03-27 20:40:37.957697: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-03-27 20:40:37.980478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-03-27 20:40:37.982196: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-03-27 20:40:37.983583: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-03-27 20:40:37.984593: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-03-27 20:40:37.985409: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-03-27 20:40:37.986238: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-03-27 20:40:37.987034: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-03-27 20:40:37.988120: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-03-27 20:40:37.989354: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-03-27 20:40:37.989378: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-03-27 20:40:37.990019: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-03-27 20:40:37.990951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-03-27 20:40:37.990986: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-03-27 20:40:37.991011: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-03-27 20:40:38.291446: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  negative 
+
+-------------------------------------------------------------------- 
+
+Process Output Started (3/27/2023 10:04:41 PM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-03-27 22:04:43.940009: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-03-27 22:04:43.940057: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-03-27 22:05:18.955951: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-03-27 22:05:18.957441: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-03-27 22:05:18.983081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-03-27 22:05:18.984220: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-03-27 22:05:18.985298: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-03-27 22:05:18.986308: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-03-27 22:05:18.987310: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-03-27 22:05:18.988311: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-03-27 22:05:18.989350: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-03-27 22:05:18.990486: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-03-27 22:05:18.991687: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-03-27 22:05:18.991713: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-03-27 22:05:18.992291: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-03-27 22:05:18.993067: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-03-27 22:05:18.993089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-03-27 22:05:18.993110: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-03-27 22:05:19.939991: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+Error : image 1/1 D:\FYP\image_to_predict\image1.png: 352x160 1 Fracture, 950.5ms 
+
+Error : Speed: 46.9ms preprocess, 950.5ms inference, 106.7ms postprocess per image at shape (1, 3, 352, 352) 
+
+Error : Results saved to [1mruns\detect\predict[0m 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  positive 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Class result value: forearm 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Number of boxes: 1 
+
+-------------------------------------------------------------------- 
+
+Process Output Started (5/11/2023 9:16:34 PM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-05-11 21:16:45.619884: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-05-11 21:16:45.620958: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-05-11 21:18:24.695462: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-05-11 21:18:24.744738: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-05-11 21:18:24.822896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-05-11 21:18:24.823971: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-05-11 21:18:24.824837: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-05-11 21:18:24.825839: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-05-11 21:18:24.826857: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-05-11 21:18:24.827880: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-05-11 21:18:24.828798: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-05-11 21:18:24.829849: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-05-11 21:18:24.830902: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-05-11 21:18:24.830921: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-05-11 21:18:24.838945: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-05-11 21:18:24.840199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-05-11 21:18:24.840215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-05-11 21:18:24.840227: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-05-11 21:18:26.400742: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+Error : image 1/1 D:\FYP\image_to_predict\image1.png: 352x160 1 Fracture, 829.0ms 
+
+Error : Speed: 37.9ms preprocess, 829.0ms inference, 32.9ms postprocess per image at shape (1, 3, 352, 352) 
+
+Error : Results saved to [1mruns\detect\predict[0m 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  positive 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Class result value: forearm 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Number of boxes: 1 
+
+-------------------------------------------------------------------- 
+
+Process Output Started (6/27/2023 12:34:33 AM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-06-27 00:34:41.097060: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-06-27 00:34:41.098178: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-06-27 00:36:17.110071: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-06-27 00:36:17.169173: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-06-27 00:36:17.260521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-06-27 00:36:17.261615: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-06-27 00:36:17.262417: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-06-27 00:36:17.263248: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-06-27 00:36:17.264035: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-06-27 00:36:17.264809: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-06-27 00:36:17.265574: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-06-27 00:36:17.266368: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-06-27 00:36:17.267341: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-06-27 00:36:17.267367: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-06-27 00:36:17.321359: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-06-27 00:36:17.340647: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-06-27 00:36:17.340668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-06-27 00:36:17.340681: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-06-27 00:36:19.302811: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+Error : image 1/1 D:\FYP\image_to_predict\image1.png: 352x160 1 Fracture, 817.1ms 
+
+Error : Speed: 38.9ms preprocess, 817.1ms inference, 65.9ms postprocess per image at shape (1, 3, 352, 352) 
+
+Error : Results saved to [1mruns\detect\predict[0m 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  positive 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Class result value: forearm 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Number of boxes: 1 
+
+-------------------------------------------------------------------- 
+
+Process Output Started (6/27/2023 12:36:53 AM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-06-27 00:36:54.559564: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-06-27 00:36:54.559607: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-06-27 00:37:03.847456: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-06-27 00:37:03.848598: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-06-27 00:37:03.875520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-06-27 00:37:03.876805: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-06-27 00:37:03.877966: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-06-27 00:37:03.879126: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-06-27 00:37:03.880232: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-06-27 00:37:03.881810: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-06-27 00:37:03.883110: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-06-27 00:37:03.884280: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-06-27 00:37:03.885443: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-06-27 00:37:03.885462: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-06-27 00:37:03.886093: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-06-27 00:37:03.886943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-06-27 00:37:03.886970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-06-27 00:37:03.887002: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-06-27 00:37:04.282925: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+Error : image 1/1 D:\FYP\image_to_predict\image1.png: 352x160 1 Fracture, 476.7ms 
+
+Error : Speed: 1.0ms preprocess, 476.7ms inference, 2.0ms postprocess per image at shape (1, 3, 352, 352) 
+
+Error : Results saved to [1mruns\detect\predict[0m 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  positive 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Class result value: forearm 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Number of boxes: 1 
+
+-------------------------------------------------------------------- 
+
+Process Output Started (6/27/2023 12:37:29 AM) :  
+
+D:\FYP>D:\Anaconda\python.exe D:\FYP\prediction_script.py  
+
+Error : 2023-06-27 00:37:29.736144: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-06-27 00:37:29.736205: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine. 
+
+Error : 2023-06-27 00:37:40.925724: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-06-27 00:37:40.927035: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll 
+
+Error : 2023-06-27 00:37:40.951687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:  
+
+Error : pciBusID: 0000:01:00.0 name: NVIDIA GeForce MX130 computeCapability: 5.0 
+
+Error : coreClock: 1.189GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 37.33GiB/s 
+
+Error : 2023-06-27 00:37:40.952909: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found 
+
+Error : 2023-06-27 00:37:40.953977: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found 
+
+Error : 2023-06-27 00:37:40.955026: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found 
+
+Error : 2023-06-27 00:37:40.956117: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found 
+
+Error : 2023-06-27 00:37:40.957442: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found 
+
+Error : 2023-06-27 00:37:40.958918: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found 
+
+Error : 2023-06-27 00:37:40.960222: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found 
+
+Error : 2023-06-27 00:37:40.961892: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found 
+
+Error : 2023-06-27 00:37:40.961918: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform. 
+
+Error : Skipping registering GPU devices... 
+
+Error : 2023-06-27 00:37:40.962852: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 
+
+Error : To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags. 
+
+Error : 2023-06-27 00:37:40.963699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix: 
+
+Error : 2023-06-27 00:37:40.963724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]       
+
+Error : 2023-06-27 00:37:40.963755: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set 
+
+Error : 2023-06-27 00:37:41.322855: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2) 
+
+Error : image 1/1 D:\FYP\image_to_predict\image1.png: 352x160 1 Fracture, 469.7ms 
+
+Error : Speed: 1.0ms preprocess, 469.7ms inference, 3.0ms postprocess per image at shape (1, 3, 352, 352) 
+
+Error : Results saved to [1mruns\detect\predict[0m 
+
+-------------------------------------------------------------------- 
+
+Binary result value :  positive 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Class result value: forearm 
+
+-------------------------------------------------------------------- 
+
+-------------------------------------------------------------------- 
+
+Number of boxes: 1 
+
+-------------------------------------------------------------------- 
+

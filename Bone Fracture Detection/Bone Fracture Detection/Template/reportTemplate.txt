@@ -1,0 +1,35 @@
+
+<html>
+<head>
+    <title>Fracture Report</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fracture Report</h1>
+    <h3>Report for: %%firstname%% %%lastname%%</h3>
+    <p style="font-size: 20px">Fracture detected: <b>%%binary%%</b></p>
+    <p style="font-size: 20px">Health Advice: %%advice%%</p>
+    <table>
+        <tr>
+            <th>Fracture Location</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td><img src='%%imagePath%%' width='200'></td>
+            <td>%%multi%%</td>
+        </tr>
+    </table>
+</body>
+</html>

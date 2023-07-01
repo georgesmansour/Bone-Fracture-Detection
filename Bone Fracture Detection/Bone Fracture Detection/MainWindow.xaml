@@ -1,0 +1,22 @@
+﻿<Window x:Class="Bone_Fracture_Detection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bone_Fracture_Detection"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="firstnameLabel" Content="Firstname:" HorizontalAlignment="Left" Margin="45,62,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox x:Name="firstnameInput" HorizontalAlignment="Left" Margin="115,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.IsRequiredForForm="True" TextChanged="firstnameInput_TextChanged"/>
+        <Label x:Name="lastnameLabel" Content="Lastname&#xD;&#xA;" HorizontalAlignment="Left" Margin="280,62,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox x:Name="lastnameInput" HorizontalAlignment="Left" Margin="350,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.IsRequiredForForm="True" TextChanged="lastnameInput_TextChanged"/>
+        <Label x:Name="emailLabel" Content="Email:" HorizontalAlignment="Left" Margin="520,62,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="emailInput" HorizontalAlignment="Left" Margin="575,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" AutomationProperties.IsRequiredForForm="True" TextChanged="emailInput_TextChanged"/>
+        <Image x:Name="imageShow" HorizontalAlignment="Left" Height="244" Margin="345,122,0,0" VerticalAlignment="Top" Width="272"/>
+        <Button x:Name="browseButton" Content="Browse" HorizontalAlignment="Left" Margin="131,165,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="browseButton_Click"/>
+        <Button x:Name="checkButton" Content="Check" HorizontalAlignment="Left" Margin="131,254,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="checkButton_Click"/>
+        <Label x:Name="titleLabel" Content="BONE FRACTURE DETECTOR" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

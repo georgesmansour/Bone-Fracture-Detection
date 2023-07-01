@@ -1,0 +1,26 @@
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.csproj.AssemblyReference.cache
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\App.g.cs
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection_MarkupCompile.cache
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection_MarkupCompile.lref
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\Bone Fracture Detection.exe
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\Bone Fracture Detection.deps.json
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\Bone Fracture Detection.runtimeconfig.json
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\Bone Fracture Detection.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\Bone Fracture Detection.pdb
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\MainWindow.baml
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.g.resources
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.GeneratedMSBuildEditorConfig.editorconfig
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.AssemblyInfoInputs.cache
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.AssemblyInfo.cs
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.csproj.CoreCompileInputs.cache
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\refint\Bone Fracture Detection.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.pdb
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.genruntimeconfig.cache
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\ref\Bone Fracture Detection.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\DinkToPdf.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\MailKit.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\MimeKit.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\FYP\Bone Fracture Detection\Bone Fracture Detection\obj\Debug\net6.0-windows\Bone Fracture Detection.csproj.CopyComplete
